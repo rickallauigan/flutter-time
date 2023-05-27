@@ -1,0 +1,29 @@
+# The following definition enables the Tome.gg librarian to recognize this YAML format
+# as conforming to the 0.1.0 version of the training definition.
+tomegg:
+  type: training
+  version: 0.1.0
+  definition: https://protocol.tome.gg/training/0.1.0
+
+# Meta information about this report
+meta:
+  format:
+    type: dsu
+    version: 0.1.0
+    definition: https://protocol.tome.gg/formats/dsu/0.1.0
+  # Applies the following tags to all of the content, instead of having to write them
+  # down each time.
+  tags:
+    - daily_stand_up
+
+content:
+  - id: 0b87b447-0207-4b2d-8d8b-a89ffae3ca72
+    datetime: 2023-05-27
+    remarks: |
+      I did the dicee app
+    done_yesterday: |
+      - Had finished the flutter tutorial for building app with state
+    doing_today: |
+      - I will start the app alarm4u
+    blockers: |
+      - None
