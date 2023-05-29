@@ -11,6 +11,14 @@ meta:
     type: dsu
     version: 0.1.0
     definition: https://protocol.tome.gg/formats/dsu/0.1.0
+  goal: 
+    title: <define your goal here>
+    description: <describe your goal here>
+    dimensions:
+      - alias: focus
+        name: focus
+        version: 0.1.0
+        definition: https://protocol.tome.gg/dimensions/focus/0.1.0
   # Applies the following tags to all of the content, instead of having to write them
   # down each time.
   tags:

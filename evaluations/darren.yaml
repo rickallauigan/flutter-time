@@ -1,0 +1,39 @@
+# The following definition enables the Tome.gg librarian to recognize this YAML format
+# as conforming to the 0.1.0 version of the training definition.
+tomegg:
+  type: evaluations
+  version: 0.1.0
+  definition: https://protocol.tome.gg/evaluations/0.1.0
+
+# Meta information about this report
+meta:
+  evaluator:
+    name: Darren
+    socials:
+      email: allauigan.rick@gmail.com
+      eth:
+  dimensions:
+    - alias: focus
+      name: focus
+      version: 0.1.0
+      definition: https://protocol.tome.gg/dimensions/focus/0.1.0
+
+evaluations:
+  - id: 0b87b447-0207-4b2d-8d8b-a89ffae3ca72
+    measurements:
+      - dimension: focus
+        score: 3
+        remarks: |
+          - It looks like you're defining your goals on https://github.com/rickallauigan/dicee
+            but they can be better improved. I added a section on your dsu-reports.yaml file for
+            you to define your goal specifically, under `meta.goal`.
+          - You can improve your DSU report by referencing the github repository link of your dicee app,
+            and then you can improve your dicee app repository by linking to the tutorial that 
+            you are following.
+          - If you are following multiple tutorials, then specify what your goals are for following
+            those tutorials. e.g. is the dicee app tutorial supposed to teach state? Is the alarm4u app
+            supposed to teach X? That way, your daily reports about those tutorials can also involve you
+            writing about what you've learned about (and what struggles you encountered) from those tutorials.
+        action_items: |
+          - Please review dsu-reports.yaml and define your goals. That way, you can always remember what
+            you are trying to accomplish with your daily training. Good luck!
